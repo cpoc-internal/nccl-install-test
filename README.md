@@ -9,7 +9,7 @@ please use root to install nccl
   ```
 2. Change directories to the text-chatbot folder.
   ```
-  cd text-nccl-install-test
+  cd nccl-install-test
   ```
 
 3. Run the shell script to install the nccl test
