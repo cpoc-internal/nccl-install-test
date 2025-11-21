@@ -7,14 +7,16 @@ please use root to install nccl
   ```
   git clone https://github.com/cpoc-internal/nccl-install-test
   ```
-2. Change directories to the text-chatbot folder.
+2. Change directories to the  folder and install the nccl.
   ```
   cd nccl-install-test
+  chmod +x nccl-install.sh
+  ./nccl-install.sh
   ```
 
-3. Run the shell script to install the nccl test
+2.1. Run the shell script to install the nccl test without accessing the folder
 
     ```
-   chmod +x nccl-install.sh
-   ./nccl-install.sh
+   chmod +x /root/nccl-install.sh
+   sudo -u root /root//nccl-install.sh
    ```
