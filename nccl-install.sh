@@ -12,7 +12,7 @@ make pkg.debian.build
 ls build/pkg/deb/
 echo "cloning nccl test"
 git clone https://github.com/NVIDIA/nccl-tests.git
-cd nccl-tests
+cd /nccl-tests
 ./build/all_reduce_perf -b 8 -e 256M -f 2 -g 2
 
 echo "done"
