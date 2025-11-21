@@ -10,10 +10,14 @@ sudo apt install libnccl2=2.28.7-1+cuda12.9 libnccl-dev=2.28.7-1+cuda12.9 -y
 sudo apt install build-essential devscripts debhelper fakeroot -y
 make pkg.debian.build
 ls build/pkg/deb/
+
+echo "back to root"
+sleep 5
+cd ..
 echo "cloning nccl test"
-cd
 git clone https://github.com/NVIDIA/nccl-tests.git
 cd nccl-tests
+make
 ./build/all_reduce_perf -b 8 -e 256M -f 2 -g 2
 
 echo "done"
