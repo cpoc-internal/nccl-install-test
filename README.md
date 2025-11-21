@@ -17,8 +17,8 @@ please use root to install nccl
 2.1. Run the shell script to install the nccl test without accessing the folder
 
   ```
-   chmod +x /root/nccl-install.sh
+   chmod +x /root/nccl-install-test/nccl-install.sh
   ```
  ```
-  sudo -u root /root//nccl-install.sh
+  sudo -u root /root/nccl-install-test/nccl-install.sh
  ```
