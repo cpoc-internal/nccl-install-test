@@ -18,6 +18,6 @@ echo "cloning nccl test"
 git clone https://github.com/NVIDIA/nccl-tests.git
 cd nccl-tests
 make -Wno-deprecated-gpu-targets
-./build/all_reduce_perf -b 8 -e 256M -f 2 -g 2
+./build/all_reduce_perf -b 8 -e 10g -f 2 -g 8
 
 echo "done"
