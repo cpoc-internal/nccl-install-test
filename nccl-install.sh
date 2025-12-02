@@ -9,6 +9,8 @@ sudo apt-get update
 sudo apt install libnccl2=2.28.7-1+cuda12.9 libnccl-dev=2.28.7-1+cuda12.9 -y
 sudo apt install build-essential devscripts debhelper fakeroot -y
 sudo apt install openmpi-bin openmpi-common libopenmpi-dev -y
+sudo apt install mpich -y
+
 make pkg.debian.build
 ls build/pkg/deb/
 
