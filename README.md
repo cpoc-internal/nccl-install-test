@@ -1,4 +1,4 @@
-# nccl-install-test
+# NCCL-install and NCCL Test
 
 please use root to install nccl
 
