@@ -11,12 +11,12 @@ sudo apt install build-essential devscripts debhelper fakeroot -y
 sudo apt install openmpi-bin openmpi-common libopenmpi-dev -y
 sudo apt install mpich -y
 
-make pkg.debian.build
-ls build/pkg/deb/
+#make pkg.debian.build
+#ls build/pkg/deb/
 
 echo "back to root"
 sleep 5
-cd ..
+
 echo "cloning nccl test"
 git clone https://github.com/NVIDIA/nccl-tests.git
 cd nccl-tests
