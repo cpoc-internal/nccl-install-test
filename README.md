@@ -18,7 +18,5 @@ please use root to install nccl
 
   ```
    chmod +x /root/nccl-install-test/nccl-install.sh
-  ```
- ```
   sudo -u root /root/nccl-install-test/nccl-install.sh
  ```
