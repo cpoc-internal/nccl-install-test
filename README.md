@@ -8,7 +8,7 @@ please use root to install nccl
   git clone https://github.com/cpoc-internal/nccl-install
   ```
 
-2. Run the shell script to install the nccl test without accessing the folder
+2. Run the shell script to install the nccl test without accessing the folder, run this as ROOT
 
   ```
    chmod +x /root/nccl-install/nccl-install.sh
