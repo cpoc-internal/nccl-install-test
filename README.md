@@ -1,4 +1,4 @@
-# NCCL-install and NCCL Test
+# NVIDIA NCCL-install and NCCL Test
 
 please use root to install nccl
 
