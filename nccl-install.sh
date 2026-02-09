@@ -18,7 +18,7 @@ echo "back to root"
 sleep 5
 
 echo "cloning nccl test"
-git clone https://github.com/NVIDIA/nccl-tests.git
+git clone https://github.com/cpoc-internal/nccl-tests
 cd nccl-tests
 make -Wno-deprecated-gpu-targets
 ./build/all_reduce_perf -b 8 -e 10g -f 2 -g 8
